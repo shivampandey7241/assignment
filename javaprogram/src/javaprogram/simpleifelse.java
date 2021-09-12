@@ -6,8 +6,8 @@ public class simpleifelse {
 		
 		int vx = 16;
 		int vy = 23;
-		System max = (vx > vy) ? "x":"y";
-		System.out.println(max);
+		System max = (vx > vy) ? "vx":"vy";
+		System.out.println("Bigger number is "+max);
 		
 	    
 
