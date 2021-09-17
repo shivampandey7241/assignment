@@ -9,5 +9,7 @@ public class A {
 		B.subtract();
 		
 		B.sum();
+                
+
 	}
 }

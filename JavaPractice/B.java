@@ -24,6 +24,6 @@ public class B {
 		int add = (x+y);
 		
 		System.out.println(add);
+                
 	}
-
 }
