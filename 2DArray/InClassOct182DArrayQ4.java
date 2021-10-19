@@ -19,6 +19,7 @@ public class InClassOct182DArrayQ4 {
 			for(int j=0; j<arr.length; j++) {
 				if(arr[i][i] != arr[j][j]) {
 					flag = false;
+					break;
 				}
 			}
     
