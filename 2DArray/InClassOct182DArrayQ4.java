@@ -10,15 +10,15 @@ public class InClassOct182DArrayQ4 {
 
 			for(int j=0; j<arr[i].length; j++) {
 				
-				arr[i][j] = s.nextInt();
+				arr[i][j] = s.nextInt();            //  Digonal Check
 			}
 		}
 		s.close();
-		boolean flag = false;
+		boolean flag = true;
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr.length; j++) {
-				if(arr[i][j] == arr[j][j]) {
-					flag = true;
+				if(arr[i][i] != arr[j][j]) {
+					flag = false;
 				}
 			}
     
