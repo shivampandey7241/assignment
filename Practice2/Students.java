@@ -50,7 +50,16 @@ public class Students {
 	
 	
 //	Method 5 Compare
-	
+	public static int compare(int v, int w, int x, int y, int z) {
+		int arr[] = {v, w, x, y, z};
+		int max = Integer.MIN_VALUE;
+		for(int i=0; i<arr.length; i++) {
+			if(max < arr[i]) {
+				max = arr[i];
+			}
+		}
+		return max;
+	}
 	
 	
 
@@ -174,23 +183,8 @@ System.out.println("------------------------------------------------------------
 		System.out.println(s5.studenTotalMarks);
 		System.out.println(s5.studentaddress);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+      
+       System.out.println("Topper Score = "+compare(s1.studenTotalMarks, s2.studenTotalMarks, s3.studenTotalMarks, s4.studenTotalMarks, s5.studenTotalMarks)+" marks");	
 
 	}
 
